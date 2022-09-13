@@ -2,7 +2,7 @@ package auth
 
 import (
 	"encoding/json"
-	"github.com/VladRomanciuc/CSProject/structs"
+	"github.com/VladRomanciuc/CSProject/auth/structs"
 	"fmt"
 	"io/ioutil"
 	"net/http"

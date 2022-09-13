@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/VladRomanciuc/CSProject/google/auth"
+	"github.com/VladRomanciuc/CSProject/auth/google"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/VladRomanciuc/cs50/CSProject/auth/router"
+	"github.com/VladRomanciuc/CSProject/auth/router"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 )
