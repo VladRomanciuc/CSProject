@@ -1,4 +1,4 @@
-module github.com/VladRomanciuc/cs50/CSProject
+module github.com/VladRomanciuc/CSProject
 
 go 1.18
 

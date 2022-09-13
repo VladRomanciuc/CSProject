@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/VladRomanciuc/cs50/CSProject/handler"
+	"github.com/VladRomanciuc/CSProject/handler"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
