@@ -10,6 +10,8 @@ import (
 // Routes for fiber
 func Routes(app *fiber.App) {
 	api := app.Group("/auth", logger.New())
-	api.Get("/", handler.Auth)
-	api.Get("/google/callback", handler.Callback)
+	api.Get("/facebook", handler.FacebookAuth)
+	api.Get("/facebook/callback", handler.FacebookCallback)
+	api.Get("/google", handler.GoogleAuth)
+	api.Get("/google/callback", handler.GoogleCallback)
 }
